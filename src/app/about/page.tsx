@@ -1,11 +1,9 @@
-'use client'
+"use client";
 
-import Header from '@/components/header/Header';
+import React from "react";
 
 const About = () => {
-  return (
-    <Header/>
-  )
-}
+    return <div>About</div>;
+};
 
-export default About
+export default About;
