@@ -24,11 +24,11 @@ const page = () => {
                             <Countdown targetDate={targetDate} />
                         </span> */}
                         <span className="font-semibold text-4xl flex col-span-2 gap-2 ms-auto">
-                            <button className="rounded-full size-[46px] bg-[#F5F5F5] flex justify-center items-center">
-                                <ArrowLeftIcon className="h-6 w-6 text-black" />
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowLeftIcon className="size-4 md:size-5 text-black" />
                             </button>
-                            <button className="rounded-full size-[46px] bg-[#F5F5F5] flex justify-center items-center">
-                                <ArrowRightIcon className="h-6 w-6 text-black" />
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowRightIcon className="size-4 md:size-5 text-black" />
                             </button>
                         </span>
                     </div>
@@ -42,12 +42,31 @@ const page = () => {
                     <div className="flex items-center justify-between">
                         <span className="font-semibold text-base lg:text-4xl">Browse By Category</span>
 
-                        <span className="font-semibold text-4xl flex col-span-2 gap-2 ms-auto">
-                            <button className="rounded-full size-[46px] bg-[#F5F5F5] flex justify-center items-center">
-                                <ArrowLeftIcon className="h-6 w-6 text-black" />
+                        <span className="font-semibold text-4xl flex col-span-2 gap-2 ms-auto items-center">
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowLeftIcon className="size-4 md:size-5 text-black" />
                             </button>
-                            <button className="rounded-full size-[46px] bg-[#F5F5F5] flex justify-center items-center">
-                                <ArrowRightIcon className="h-6 w-6 text-black" />
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowRightIcon className="size-4 md:size-5 text-black" />
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <hr className="border w-full bg-gray-500 my-5" />
+                <div>
+                    <div className="flex items-center gap-2">
+                        <div className="bg-[#DB4444] h-10 w-5 rounded-[4px]"></div>
+                        <span className="text-[#DB4444] text-base font-semibold">This Month</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                        <span className="font-semibold text-base lg:text-4xl">Best Selling Product</span>
+
+                        <span className="font-semibold text-4xl flex col-span-2 gap-2 ms-auto items-center">
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowLeftIcon className="size-4 md:size-5 text-black" />
+                            </button>
+                            <button className="rounded-full size-8 md:size-[46px] bg-[#F5F5F5] flex justify-center items-center">
+                                <ArrowRightIcon className="size-4 md:size-5 text-black" />
                             </button>
                         </span>
                     </div>
