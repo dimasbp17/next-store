@@ -40,3 +40,15 @@ const CardProduct = () => {
 };
 
 export default CardProduct;
+// import React from 'react';
+// import { Card, CardHeader, CardBody, CardFooter, Typography, Button } from '@material-tailwind/react';
+
+// const CardProduct = () => {
+//     return (
+//         <>
+//             <Button>Button</Button>;
+//         </>
+//     );
+// };
+
+// export default CardProduct;
